@@ -1,24 +1,19 @@
 //
-//  CollectionListCell.swift
+//  ProductListCell.swift
 //  Shopify-S19
 //
-//  Created by Neelaksh Bhatia on 2019-01-17.
+//  Created by Neelaksh Bhatia on 2019-01-19.
 //  Copyright © 2019 Neelaksh Bhatia. All rights reserved.
 //
 
 import UIKit
-import SnapKit
 
-// ** TODO **
-// Figure out how to display this
-// with proper constraints layout
-
-class CollectionListCell: UICollectionViewCell {
-    @IBOutlet var titleLabel: UILabel!
+class ProductListCell: UICollectionViewCell {
+    @IBOutlet var productImageView: UIImageView!
+    @IBOutlet var productNameLabel: UILabel!
     @IBOutlet var bodyLabel: UILabel!
-    @IBOutlet var imageView: UIImageView!
-    @IBOutlet var lastUpdatedLabel: UILabel!
-    
+    @IBOutlet var inventoryLabel: UILabel!
+
     var isHeightCalculated: Bool = false
 
     override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {

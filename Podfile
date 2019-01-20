@@ -6,7 +6,7 @@ target 'Shopify-S19' do
   use_frameworks!
 
   # Pods for Shopify-S19
-  pod 'Alamofire', '~> 5.0.0.beta.1'
+  pod 'Alamofire', '~> 4.7'
   pod 'SnapKit', '~> 4.0.0'
 
 end
